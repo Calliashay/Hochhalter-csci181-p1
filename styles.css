@@ -221,13 +221,14 @@ img {
 }
 
 .footer__inner {
-  max-width: 80rem;
+  max-width: 65rem;
   margin: 0 auto;
+  padding: 0 2rem;
 
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 3rem;
+  gap: 4rem;
 }
 
 .footer__map {
