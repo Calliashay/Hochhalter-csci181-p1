@@ -225,13 +225,26 @@ img {
   margin: 0 auto;
 
   display: flex;
-  gap: 2rem;
-  align-items: flex-start;
-  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.footer__map {
+  margin: 0;
+  flex: 0 0 26rem;         
+}
+
+.footer__map-img {
+  width: 100%;
+  height: auto;
+  border-radius: 0.75rem;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
 }
 
 .footer__content {
-  max-width: 38rem;
+  flex: 1 1 24rem;
+  max-width: 32rem;
 }
 
 .footer__heading {
@@ -261,16 +274,4 @@ img {
   display: block;
   margin-top: 1.5rem;
   opacity: 0.9;
-}
-
-.footer__map {
-  margin: 0;
-  flex: 0 0 22rem;
-}
-
-.footer__map-img {
-  width: 100%;
-  height: auto;
-  border-radius: 0.75rem;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
 }
