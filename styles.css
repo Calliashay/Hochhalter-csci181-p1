@@ -32,7 +32,6 @@ img {
 
 /* Header & Navigation */
 .site-header {
-  background-color: #2a6f8f;
   border-bottom: 1px solid #2a6f8f;
   padding: 0.5rem 0;
 }
@@ -79,8 +78,8 @@ img {
 .nav__link:hover,
 .nav__link:focus {
   text-decoration: underline;
-  background-color: #1f566f;
-  outline: 2px solid #ffffff;
+  background-color: #e6f2f7;
+  outline: 2px solid #2a6f8f;
   outline-offset: 2px;
 }
 
@@ -88,7 +87,8 @@ img {
 .hero {
   max-width: 70rem;
   margin: 0 auto;
-  padding: 1.5rem 1rem;
+  padding: 2rem 1rem;
+
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -101,7 +101,7 @@ img {
 }
 
 .hero__text {
-  margin: 0.75rem 0 1rem 0;
+  margin: 1rem 0 1.5rem 0;
 }
 
 /* CTA */
