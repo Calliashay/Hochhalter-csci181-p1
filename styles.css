@@ -54,7 +54,7 @@ img {
 }
 
 .nav__logo {
-  height: 4rem;
+  height: 5rem;
   width: auto;
   display: block;
 }
@@ -86,16 +86,16 @@ img {
 .hero {
   max-width: 70rem;
   margin: 0 auto;
-  padding: 3rem 1rem;
+  padding: 2rem 1rem;
 
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 2rem;
+  gap: 1rem;
 }
 
 .hero {
-  background-color: #f4f7f9;
+  background-color: #2a6f8f;
   border-radius: 1rem;
 }
 
