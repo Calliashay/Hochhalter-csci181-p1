@@ -106,18 +106,44 @@
     </main>
    
     <!-- Footer -->
-    <footer class="site-footer">
-    <p>
-        Contact: 
-        <a href="mailto:director@missoulaseniorcenter.org">
-        director@missoulaseniorcenter.org
-        </a>
-        |
-        <a href="tel:14065437154">
-        (406) 543-7154
-        </a>
-    </p>
-    <small>© 2026 Missoula Senior Center</small>
+    <footer class="site-footer" aria-labelledby="footer-title">
+    <div class="footer__inner">
+        <div class="footer__content">
+        <h2 id="footer-title" class="footer__heading">Location</h2>
+        <p class="footer__text">The Missoula Senior Center is located at</p>
+        <p class="footer__text">
+            705 S. Higgins Ave., Missoula, MT, 59801
+        </p>
+
+        <h2 class="footer__heading">Contact Information</h2>
+        <p class="footer__text">
+            Email:
+            <a class="footer__link" href="mailto:director@missoulaseniorcenter.org">
+            director@missoulaseniorcenter.org
+            </a>
+        </p>
+        <p class="footer__text">
+            Phone:
+            <a class="footer__link" href="tel:14065437154">
+            406-543-7154
+            </a>
+        </p>
+        <p class="footer__text">
+            Website:
+            <a class="footer__link" href="https://www.themissoulaseniorcenter.org">
+            themissoulaseniorcenter.org
+            </a>
+        </p>
+
+        <small class="footer__small">© 2026 Missoula Senior Center</small>
+        </div>
+
+        <figure class="footer__map" aria-label="Map showing Missoula Senior Center location">
+        <img
+            src="assets/map.png"
+            alt="Map showing the Missoula Senior Center near 705 South Higgins Avenue in Missoula, Montana."
+            class="footer__map-img"
+        />
+        </figure>
+    </div>
     </footer>
-  </body>
-</html>

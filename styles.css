@@ -82,6 +82,7 @@ img {
 
 .nav__link {
   text-decoration: none;
+  font-size: 1.1rem;
   color: #1a1a1a;
   padding: 0.5rem 0.75rem;
   border-radius: 0.5rem;
@@ -98,7 +99,7 @@ img {
 .hero {
   max-width: 80rem;
   margin: 0 auto;
-  padding: 1.5rem 1rem;
+  padding: 1rem 1rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -145,11 +146,12 @@ img {
 .section {
   max-width: 80rem;
   margin: 0 auto;
-  padding: 2rem 1rem;
+  padding: 1.5rem 1rem;
 }
 
 .section h2 {
-  color: #2a6f8f;
+    color: #2a6f8f;
+    font-weight: 600
 }
 
 .section:nth-of-type(even) {
@@ -213,7 +215,62 @@ img {
 
 /* Footer */
 .site-footer {
-  border-top: 1px solid #e6e6e6;
-  padding: 1.5rem 1rem;
-  text-align: center;
+  background-color: #2a6f8f;
+  color: #ffffff;
+  padding: 3rem 1rem;
+}
+
+.footer__inner {
+  max-width: 80rem;
+  margin: 0 auto;
+
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.footer__content {
+  max-width: 38rem;
+}
+
+.footer__heading {
+  margin: 0 0 0.75rem 0;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.footer__text {
+  margin: 0 0 1rem 0;
+}
+
+.footer__link {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.footer__link:hover,
+.footer__link:focus {
+  text-decoration: none;
+  outline: 2px solid #ffffff;
+  outline-offset: 2px;
+}
+
+.footer__small {
+  display: block;
+  margin-top: 1.5rem;
+  opacity: 0.9;
+}
+
+.footer__map {
+  margin: 0;
+  flex: 0 0 22rem;
+}
+
+.footer__map-img {
+  width: 100%;
+  height: auto;
+  border-radius: 0.75rem;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
 }
