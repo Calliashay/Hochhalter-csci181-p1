@@ -26,13 +26,13 @@ h3 {
 
 img {
   max-width: 100%;
-  height: auto;
+  height: 2.5rem;
   display: block;
 }
 
 /* Header & Navigation */
 .site-header {
-  border-bottom: 1px solid #e6e6e6;
+  border-bottom: 1px solid #2a6f8f;
   padding: 0.5rem 0;
 }
 
@@ -70,13 +70,14 @@ img {
 
 .nav__link {
   text-decoration: none;
-  color: #1a1a1a;
+  color: #ffffff;
   padding: 0.5rem 0.75rem;
   border-radius: 0.5rem;
 }
 
 .nav__link:hover,
 .nav__link:focus {
+  text-decoration: underline;
   background-color: #e6f2f7;
   outline: 2px solid #2a6f8f;
   outline-offset: 2px;
@@ -138,7 +139,7 @@ img {
 .section {
   max-width: 70rem;
   margin: 0 auto;
-  padding: 3rem 1rem;
+  padding: 2rem 1rem;
 }
 
 .section h2 {
