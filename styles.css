@@ -156,6 +156,15 @@ img {
   background-color: #f4f7f9;
 }
 
+#mission {
+  text-align: center;
+}
+
+#mission p {
+  max-width: 50rem;
+  margin: 0 auto;
+}
+
 /* Links */
 .link,
 .card__link {
